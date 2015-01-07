@@ -24,18 +24,18 @@
 
 #include <inttypes.h>
 #include <Stream.h>
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 
 //Comment if you have no State pin
 #define HC05_STATE_PIN
 
 // This macro must be defined
-#define HC05_HW_SERIAL_PORT Serial
+#define HC05_HW_SERIAL_PORT Serial1
 
 /*
  * Optional macros, define as needed
  */
-#define HC05_SOFTWARE_SERIAL
+//#define HC05_SOFTWARE_SERIAL
 #define DEBUG_HC05
 //#define DEBUG_SW_PORT swserial(4,5)
 
