@@ -38,7 +38,7 @@
  * port. You can change this to any serial port supported by your
  * Arduino (i.e, Serial1, Serial2, etc.)
  */
-#define HC05_HW_SERIAL_PORT Serial
+#define HC05_HW_SERIAL_PORT Serial1
 
 
 /*
